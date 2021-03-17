@@ -1,12 +1,12 @@
 # Galaxy Brain Meme - Frontend Development Practice
 
-![Design preview for the Galaxy Brain Meme coding challenge](design/Attempt.png)
+![Design preview for the Galaxy Brain Meme coding challenge](/design/Attempt.png)
 
 ## Welcome! 👋
 
-Hi, my name is LaMonte and thanks for checking out this front-end coding challenge.
+**Hi, my name is LaMonte and thanks for checking out this front-end coding challenge.**
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+To do this challenge, I needed a basic understanding of HTML and CSS.
 
 ## The challenge
 
@@ -14,7 +14,7 @@ The challenge is to build out this Galaxy Brain Meme and get it looking as close
 
 Your users should be able to:
 
-- View the UI/UX Designers Designed Meme's and
+- View the UI/UX Designers Designed Meme's
 - See the `active` card denoted by the blue border and `Most Popular Option` button
 
 ## Where to find everything
