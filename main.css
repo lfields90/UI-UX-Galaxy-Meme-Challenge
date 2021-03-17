@@ -1,0 +1,131 @@
+/* Global Styles / Reset */
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100vh;
+  weight: 100vw;
+}
+
+/* Main Container */
+
+h1 {
+  margin-top: 100px;
+  font-size: 34px;
+  font-weight: 100;
+}
+
+h1, h1 + p {
+  text-align: center;
+  padding: 5px;
+}
+
+.cards-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Card Styles */
+
+.card {
+  flex-basis: 22%;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 20px 40px;
+  margin: 0 20px;
+  position: relative;
+  align-items: flex-start;
+}
+
+.card-title h2 {
+  font-weight: 100;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.image {
+  height: 100px;
+  width: 200pxbccom;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -50px;
+  right: 50%;
+  transform: translateX(50%);
+  -webkit-box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.2);
+}
+
+.card-description h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.card-description p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.card-features li {
+  padding: 5px 0 5px 10px;
+  list-style: none;
+}
+
+.card-features li:before {
+  content: '✅ ';
+}
+
+
+.bold {
+  font-weight: 400;
+}
+
+.active {
+  border: 1px solid #4D60DA;
+  -webkit-box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 33px 7px rgba(0,0,0,0.2);
+}
+
+.active-button {
+  font-weight: 700;
+  border-radius: 50px;
+  color: white;
+  background-color: #4D60DA;
+  padding: 8px 20px;
+  text-align: center;
+  border: none;
+  position: absolute;
+  bottom: -15px;
+  right: 50%;
+  transform: translateX(50%);
+
+}
+
+.brain-1 {
+  background-image: url(images/brain_1.jpeg);
+}
+
+.brain-2 {
+  background-image: url(images/brain_2.jpeg);
+}
+
+.brain-3 {
+  background-image: url(images/brain_3.jpeg);
+}
+
+.brain-4 {
+  background-image: url(images/brain_4.jpeg);
+}
