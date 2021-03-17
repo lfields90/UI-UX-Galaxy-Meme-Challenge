@@ -1,6 +1,6 @@
 # Galaxy Brain Meme - Frontend Development Practice
 
-![Design preview for the Galaxy Brain Meme coding challenge](/design/Attempt.png)
+![Design preview for the Galaxy Brain Meme coding challenge](/design/Attempt1.png)
 
 ## Welcome! 👋
 
